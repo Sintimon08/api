@@ -1,5 +1,5 @@
-first = [12,13,14,16,18]
+import requests
 
+data = requests.get('https://yandex.ru/images/?utm_source=main_stripe_big')
 
-for key in first:
-    print(key)
+print(data)
